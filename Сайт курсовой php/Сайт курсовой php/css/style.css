@@ -1,0 +1,1619 @@
+body {
+    background-image: url(../img/background.gif); /* Путь к фоновому изображению */
+    background-attachment: fixed; /* Фиксируем фон веб-страницы */
+    background-repeat: no-repeat;
+    
+   }
+
+.bg_film_info{
+    position: absolute;
+    width: 1469px;
+    height: 1914px;
+    left: 0px;
+    top: 970px;
+    
+    background: rgba(29, 29, 29, 0.98);
+}
+
+.btn_zabroniravat{
+    
+    width: 313px;
+    height: 59px;
+    left: 66px;
+    top: 890px;
+    
+    background: #6B8BFE;
+    border-radius: 24px;
+
+    position: fixed;
+    z-index: 1;
+}
+
+
+/* Модальное окно */
+.okno{
+    position: absolute;
+    width: 978px;
+    height: 856px;
+
+    background: #6F337D;
+    border-radius: 52px;
+}
+.okno_name{
+    position: absolute;
+    width: 308px;
+    height: 58px;
+    left: 335px;
+    top: 25px;
+
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+}
+.okno_anketa{
+    position: absolute;
+    width: 406px;
+    height: 333px;
+    left: 83px;
+    top: 207px;
+
+    border: 1px solid #000000;
+}
+.okno_name_film{
+    position: absolute;
+    left: 0.49%;
+    right: 48.77%;
+    top: 0.9%;
+    bottom: 90.69%;
+
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.okno_name_film_vibor_kino{
+    position: absolute;
+    width: 404px;
+    height: 39px;
+    left: 0px;
+    top: 46px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.okno_name_adress{
+    position: absolute;
+    left: 0.49%;
+    right: 48.03%;
+    top: 38.14%;
+    bottom: 53.45%;
+
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+.okno_name_film_vibor_adressa{
+    position: absolute;
+    width: 404px;
+    height: 39px;
+    left: 0px;
+    top: 170px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.okno_name_mesto{
+    position: absolute;
+    left: 0.49%;
+    right: 50.25%;
+    top: 75.38%;
+    bottom: 16.22%;
+
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.okno_name_film_vibor_mesto{
+    position: absolute;
+    width: 404px;
+    height: 39px;
+    left: 0px;
+    top: 294px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.summa{
+    position: absolute;
+    width: 149px;
+    height: 24px;
+    left: 192px;
+    top: 748px;
+
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.btn_otprav{
+    position: absolute;
+    width: 214px;
+    height: 40.34px;
+    left: 588px;
+    top: 740px;
+
+    background: #6B8BFE;
+    border-radius: 24px;
+}
+
+.btn_otprav_name{
+    position: absolute;
+    width: 161.38px;
+    height: 19.3px;
+    left: 33.33px;
+    top: 7.02px;
+
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.btn_zabron{
+    position: absolute;
+    width: 214px;
+    height: 40.34px;
+    left: 588px;
+    top: 740px;
+
+    background: #6B8BFE;
+    border-radius: 24px;
+}
+/* Конец модального окна */
+
+.btn_zabroniravat_text{
+    position: absolute;
+    width: 270px;
+    height: 28px;
+    left: 87px;
+    top: 906px;
+
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: rgba(255, 255, 255, 0.98);
+
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logotip_img{
+    position: absolute;
+    width: 66.89px;
+    height: 68px;
+    left: 0px;
+    top: 3px;
+}
+
+.bg {
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.img_bg_block1{
+    position: absolute;
+    width: 1456px;
+    height: 867px;
+    left: 0px;
+    top: 0px;
+}
+
+.logo_rt{
+    position: absolute;
+    width: 207px;
+    height: 71px;
+    left: 60px;
+    top: 0px;
+    
+    background: #9D48B3;
+    border-radius: 4px; 
+}
+
+.logo_line{
+    position: absolute;
+    width: 1149px;
+    height: 0px;
+    left: 60px;
+    top: 67px;
+    
+    border: 4px solid #9D48B3;
+    background-color: #9D48B3;
+    border-radius: 4px;  
+}
+
+.logo_name{
+    position: absolute;
+    width: 186px;
+    height: 49px;
+    left: 80px;
+    top: -25px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;   
+}
+
+.menu_raspis{
+    position: absolute;
+    width: 140px;
+    height: 28px;
+    left: 306px;
+    top: 0px;
+    
+    font-family: 'Judson';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    
+    color: #9D48B3; 
+}
+
+.menu_akci{
+    position: absolute;
+    width: 183px;
+    height: 28px;
+    left: 476px;
+    top: 0px;
+    
+    font-family: 'Judson';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.menu_news{
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    left: 689px;
+    top: 0px;
+    
+    font-family: 'Judson';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.menu_new{
+    position: absolute;
+    width: 155px;
+    height: 28px;
+    left: 819px;
+    top: 0px;
+    
+    font-family: 'Judson';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.menu_kontakt{
+    position: absolute;
+    width: 113px;
+    height: 28px;
+    left: 1004px;
+    top: 0px;
+    
+    font-family: 'Judson';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+
+
+.list_start_logotip{
+    position: absolute;
+    width: 225.27px;
+    height: 229px;
+    left: 735px;
+    top: 127px;
+}
+
+.list_block_text_block{
+    position: absolute;
+    width: 302px;
+    height: 83px;
+    left: 982px;
+    top: 100px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    
+    color: #FFFFFF;
+}
+
+.list_block_text_block_rt{
+    position: absolute;
+    width: 282.83px;
+    height: 43px;
+    left: -5px;
+    top: 145px;
+    
+    background: #7C3D8C;
+    border-radius: 16px;   
+}
+
+.list_block_text_block_rt_text{
+    position: absolute;
+    width: 245.01px;
+    height: 30.46px;
+    left: 40px;
+    top: -16px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+}
+
+.list_block_text_block_text{
+    position: absolute;
+    width: 533px;
+    height: 84px;
+    left: -180px;
+    top: 400px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    
+    color: #FFFFFF;
+}
+
+.list_block3_title_text a:hover{
+    color: #FFFFFF;
+}
+
+.list_block_text_block_btn_text a:hover{
+    color: #000000;
+}
+
+.list_block_text_block_btn{
+    position: absolute;
+    width: 313px;
+    height: 59px;
+    left: 60px;
+    top: 530px;
+    
+    background: #6B8BFE;
+    border-radius: 24px; 
+}
+
+.list_block_text_block_btn_text{
+    position: absolute;
+    width: 250px;
+    height: 28px;
+    left: 30px;
+    top: -9px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+       
+}
+
+.list_block2_rt1{
+    position: absolute;
+    width: 1231px;
+    height: 149px;
+    left: 120px;
+    top: 1076px;
+    
+    background: rgba(29, 29, 29, 0.98);
+    border-radius: 107px;
+}
+
+.list_block2_rt1_logotip{
+    position: absolute;
+    width: 41.25px;
+    height: 41.93px;
+    left: 21px;
+    top: 54px;
+}
+
+.list_block2_rt1_logotip_text{
+    position: absolute;
+    width: 114.69px;
+    height: 30.21px;
+    left: 62.31px;
+    top: 40px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+}
+
+.list_block2_rt1_text1{
+    position: absolute;
+    width: 132px;
+    height: 17px;
+    left: 126px;
+    top: 60px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    transform: rotate(-90deg);
+}
+
+.list_block2_rt1_block1_name{
+    position: absolute;
+    width: 124px;
+    height: 17px;
+    left: 254px;
+    top: 20px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+      
+}
+
+.list_block2_rt1_block1_name a{
+    width: 100px;
+    height: 30px;
+}
+
+a:hover{
+    color: #9D48B2;
+}
+
+.list_block2_rt1_block1_kategor{
+    position: absolute;
+    width: 81px;
+    height: 15px;
+    left: 254px;
+    top: 90px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.list_block2_rt1_block1{
+    position: absolute;
+    width: 124px;
+    height: 132px;
+    left: 0px;
+    top: -10px;
+}
+
+.list_block2_rt1_block1_img{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 254px;
+    top: 115px;
+}
+
+.list_block2_rt1_block1_timeText{
+    position: absolute;
+    width: 81px;
+    height: 15px;
+    left: 268px;
+    top: 104px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.list_block2_rt1_block1_adres{
+    position: absolute;
+    width: 103px;
+    height: 15px;
+    left: 254px;
+    top: 119px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.list_block2_rt1_block2{
+    position: absolute;
+    width: 124px;
+    height: 133px;
+    left: 254px;
+    top: -10px;
+}
+
+.list_block2_rt1_block3{
+    position: absolute;
+    width: 124px;
+    height: 133px;
+    left: 478px;
+    top: -10px;
+}
+
+.list_block2_rt1_block4{
+    position: absolute;
+    width: 124px;
+    height: 133px;
+    left: 702px;
+    top: -10px;
+}
+
+.list_block3{
+    position: absolute;
+    width: 1231px;
+    height: 1379px;
+    left: 120px;
+    top: 1274px;
+    
+    background: rgba(29, 29, 29, 0.98);
+    border-radius: 107px;
+}
+
+.list_block3_title_text{
+    position: absolute;
+    width: 423px;
+    height: 40px;
+    left: 61px;
+    top: 20px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;   
+}
+
+/* Блок сортировки */
+
+.list_block3_block_sort{
+    position: absolute;
+    width: 323px;
+    height: 35px;
+    left: 702px;
+    top: 56px;
+    
+    background: #FFFFFF;
+    border-radius: 17px;
+}
+
+.list_block3_block_sort_text{
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 19px;
+    top: -15px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    
+    color: #000000;
+}
+
+.list_block3_block_sort_rect{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 290px;
+    top: 12px;
+    
+}
+
+/* Блок сортировки конец */
+
+/* Блок показа сеансов */
+
+.list_block3_raspis{
+    position: absolute;
+    width: 979px;
+    height: 1138px;
+    left: 126px;
+    top: 191px;
+}
+
+/* Расписание фильма общая */
+
+.list_block3_raspis_film1_nazvan{
+    position: absolute;
+    width: 206px;
+    height: 28px;
+    left: 216px;
+    top: 24px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}
+
+.list_block3_raspis_film1_photo{
+    position: absolute;
+    width: 182px;
+    height: 262px;
+    
+    background: #D9D9D9;
+    border-radius: 54px;
+}
+
+.list_block3_raspis_film1_photo_text{
+    position: absolute;
+    width: 90px;
+    height: 24px;
+    left: 46px;
+    top: 95px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.list_block3_raspis_film1_ogran{
+    position: absolute;
+    width: 83px;
+    height: 15px;
+    left: 216px;
+    top: 68px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+
+.list_block3_raspis_film1{
+    position: absolute;
+    width: 978px;
+    height: 262px;
+    left: 0px;
+    top: 0px;
+
+    background: #6F337D;
+    border-radius: 52px;
+}
+
+.list_block3_raspis_film1_block_raspis{
+    position: absolute;
+    width: 702px;
+    height: 110px;
+    top: 102px;
+    left: 216px;
+}
+
+.list_block3_raspis_film1_block_raspis_rc1{
+    position: absolute;
+    width: 702px;
+    height: 30px;
+    
+    background: #FFFFFF;
+}
+
+.list_block3_raspis_film1_block_raspis_rc1_name{
+    position: absolute;
+    width: 209px;
+    height: 28px;
+    top: -24px;
+    left: 3px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+.list_block3_raspis_film1_block_raspis_rc1_time1{
+    position: absolute;
+    width: 40px;
+    height: 17px;
+    left: 329px;
+    top: -8px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.list_block3_raspis_film1_block_raspis_rc1_blockTime1{
+    position: absolute;
+    width: 54px;
+    height: 30px;
+    left: 374px;
+    
+    background: #D5CECE;
+}
+
+.list_block3_raspis_film1_block_raspis_rc1_time2{
+    position: absolute;
+    width: 37px;
+    height: 17px;
+    left: 384px;
+    top: -8px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.list_block3_raspis_film1_block_raspis_rc1_time3{
+    position: absolute;
+    width: 37px;
+    height: 17px;
+    left: 439px;
+    top: -8px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.list_block3_raspis_film1_block_raspis_rc2{
+
+    position: absolute;
+    width: 702px;
+    height: 30px;
+    top: 40px;
+    
+    background: #FFFFFF;
+}
+
+.list_block3_raspis_film1_block_raspis_rc3{
+
+    position: absolute;
+    width: 702px;
+    height: 30px;
+    top: 80px;
+    
+    background: #FFFFFF;
+}
+
+
+/* Расписание фильма общая конец */
+
+.list_block3_raspis_film2{
+    position: absolute;
+    width: 978px;
+    height: 262px;
+    left: 0px;
+    top: 292px;
+
+    background: #6F337D;
+    border-radius: 52px;
+}
+
+.list_block3_raspis_film3{
+    position: absolute;
+    width: 978px;
+    height: 262px;
+    left: 0px;
+    top: 584px;
+
+    background: #6F337D;
+    border-radius: 52px;
+}
+
+.list_block3_raspis_film4{
+    position: absolute;
+    width: 978px;
+    height: 262px;
+    left: 0px;
+    top: 876px;
+
+    background: #6F337D;
+    border-radius: 52px;
+}
+
+
+/* Footer */
+
+.footer_block{
+    position: absolute;
+    width: 1440px;
+    height: 74px;
+    left: 0px;
+    top: 2785px;
+    
+    background: rgba(29, 29, 29, 0.98);
+}
+
+.footer_img{
+    position: absolute;
+    width: 65.91px;
+    height: 67px;
+    left: 610px;
+}
+
+.footer_name{
+    position: absolute;
+    width: 118px;
+    height: 23px;
+    left: 694px;
+    top: -15px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+}
+
+.footer_blockText{
+    position: absolute;
+    width: 158.09px;
+    height: 24.03px;
+    left: 672px;
+    top: 43px;
+
+    background: #7C3D8C;
+border-radius: 16px;
+}
+
+.footer_blockText_text{
+    position: absolute;
+    width: 136.95px;
+    height: 17.03px;
+    left: 24px;
+    top: -8px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    
+    color: #FFFFFF;
+}
+
+/* Страница НОВОСТИ */
+
+/*Начало страницы*/
+
+.news_img_bg_block1{
+    position: absolute;
+    width: 1456px;  
+    height: 867px;
+    left: -18px;
+    top: 172px;
+
+    transform: rotate(-180deg);
+}
+
+.news_list_name{
+    position: absolute;
+    width: 265px;
+    height: 78px;
+    left: 97px;
+    top: 393px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.news_list_text{
+    position: absolute;
+    width: 499px;
+    height: 20px;
+    left: 97px;
+    top: 559px;
+    
+    font-family: 'Judson';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}
+
+
+/* Блок отображения новостей */
+
+.list_block_news{
+    position: absolute;
+    width: 1306px;
+    height: 926px;
+    left: 69px;
+    top: 827px;
+}
+
+.list_block_news_rc1{
+    position: absolute;
+    width: 362px;
+    height: 441px;
+    
+    background: #6F337D;
+    border-radius: 76px;
+}
+
+/* Плитка новостей общее */
+
+.list_block_news_rc1_name{
+    position: absolute;
+    width: 146px;
+    height: 47px;
+    top: 40px;
+    left: 108px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color: #FFFFFF;
+}
+
+.list_block_news_rc1_text{
+    position: absolute;
+    width: 248px;
+    height: 38px;
+    top: 131px;
+    left: 35px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+}
+
+.list_block_news_rc1_btn{
+    position: absolute;
+    width: 187px;
+    height: 37px;
+    top: 365px;
+    left: 87px;
+
+    background: #393942;
+    border-radius: 10px;
+    
+}
+
+.list_block_news_rc1_btn_name{
+    position: absolute;
+    width: 86px;
+    height: 19px;
+    top: -9px;
+    left: 50px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.list_block_news_rc2{
+
+    position: absolute;
+    width: 362px;
+    height: 441px;
+    top: 0px;
+    left: 470px;
+    
+    background: #6F337D;
+    border-radius: 76px;
+}
+
+.list_block_news_rc3{
+
+    position: absolute;
+    width: 362px;
+    height: 441px;
+    top: 0px;
+    left: 943px;
+    
+    background: #6F337D;
+    border-radius: 76px;
+}
+.list_block_news_rc4{
+
+    position: absolute;
+    width: 362px;
+    height: 441px;
+    top: 485px;
+    left: 0px;
+    
+    background: #6F337D;
+    border-radius: 76px;
+}
+.list_block_news_rc5{
+
+    position: absolute;
+    width: 362px;
+    height: 441px;
+    top: 485px;
+    left: 469px;
+    
+    background: #6F337D;
+    border-radius: 76px;
+}
+.list_block_news_rc6{
+
+    position: absolute;
+    width: 362px;
+    height: 441px;
+    top: 485px;
+    left: 944px;
+    
+    background: #6F337D;
+    border-radius: 76px;
+}
+
+/*Конец общей плитки*/
+
+.footer_block_news{
+    position: absolute;
+    width: 1440px;
+    height: 74px;
+    left: 0px;
+    top: 2000px;
+    
+    background: rgba(29, 29, 29, 0.98);
+}
+
+.list_block_news_bg{
+    position: absolute;
+    width: 1440px;
+    height: 1100px;
+    left: -70px;
+    top: 140px;
+    
+    background: rgba(29, 29, 29, 0.98);
+}
+
+
+
+/* Конец страницы НОВОСТИ */
+
+
+/* Страница информация о фильме */
+
+.FilmInfo_name{
+    position: absolute;
+    width: 569px;
+    height: 78px;
+    left: 72px;
+    top: 506px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.FilmInfo_photo{
+    position: absolute;
+    width: 287px;
+    height: 413.15px;
+    top: 650px;
+    left: 72px;
+    
+    background: #D9D9D9;
+    border-radius: 54px;
+}
+
+.FilmInfo_photo_txt{
+    position: absolute;
+    left: 87px;
+    top: 188px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+/*Информация о фильме*/
+
+.FilmInfo_blockInfo{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 558px;
+    height: 519px;
+    left: 401px;
+    top: 650px;
+}
+
+.FilmInfo_blockInfo_block_name{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 555px;
+    height: 31px;
+}
+
+
+/*Общий блок*/
+
+.FilmInfo_blockInfo_name{
+    position: absolute;
+    width: 241px;
+    height: 29px;
+    left: 6px;
+    top: 0px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+}
+
+.FilmInfo_blockInfo_name_inf{
+    position: absolute;
+    width: 95px;
+    height: 29px;
+    left: 443px;
+    top: 0px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+}
+
+.FilmInfo_blockInfo_line{
+    position: absolute;
+    width: 553px;
+    height: 0px;
+    left: -2px;
+    top: 28px;
+    
+    border: 3px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+
+/*Конец общего блока*/
+
+.FilmInfo_blockInfo_block_god{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 555px;
+    height: 31px;
+    top: 51px;
+   
+}
+
+.FilmInfo_blockInfo_block_premera{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 555px;
+    height: 31px;
+    top: 102px; 
+}
+
+.FilmInfo_blockInfo_block_ganr{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 555px;
+    height: 31px;
+    top: 153px;   
+}
+
+.FilmInfo_blockInfo_block_regic{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 555px;
+    height: 31px;
+    top: 204px;
+}
+
+.FilmInfo_blockInfo_block_schenar{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 555px;
+    height: 31px;
+    top: 255px;
+}
+
+.FilmInfo_blockInfo_block_roli{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 555px;
+    height: 31px;
+    top: 306px;  
+}
+
+.FilmInfo_blockInfo_block_count{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 555px;
+    height: 31px;
+    top: 357px;     
+}
+
+.FilmInfo_blockInfo_block_time{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 555px;
+    height: 31px;
+    top: 408px;  
+}
+
+.FilmInfo_blockInfo_block_ogran{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 555px;
+    height: 31px;
+    top: 459px;
+}
+
+
+.FilmInfo_blockOpis{
+    position: absolute;
+    width: 1218px;
+    height: 44px;
+    left: 111px;
+    top: 1291px;
+}
+
+/* Общий блок оглавления*/
+
+.FilmInfo_block_oglav_line1{
+    position: absolute;
+    width: 500px;
+    height: 0px;
+    left: 3px;
+    top: 25px;
+    
+    border: 3px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    transform: rotate(180deg);
+}
+
+.FilmInfo_block_oglav_line2{
+    position: absolute;
+    width: 500px;
+    height: 0px;
+    left: 721px;
+    top: 25px;
+    
+    border: 3px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    transform: rotate(180deg);
+}
+
+.FilmInfo_block_oglav_name{
+    position: absolute;
+    width: 178px;
+    height: 44px;
+    left: 540px;
+    top: 3px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+
+
+/* Общий блок оглавления конец*/
+
+.FilmInfo_blockTreiler{
+    position: absolute;
+    width: 1218px;
+    height: 44px;
+    left: 111px;
+    top: 1698px;   
+}
+
+.FilmInfo_blockTreiler_video{
+    position: absolute;
+    width: 830px;
+    height: 368px;
+    left: 305px;
+    top: 1809px;
+    
+    background: #D9D9D9;
+}
+
+.FilmInfo_blockTreiler_video_text{
+    position: absolute;
+    width: 110px;
+    height: 44px;
+    left: 360px;
+    top: 162px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.FilmInfo_blockSeans{
+    position: absolute;
+    width: 1218px;
+    height: 44px;
+    left: 111px;
+    top: 2266px;
+}
+
+
+.FilmInfo_blockSeans_time{
+    position: absolute;
+    width: 978px;
+    height: 262px;
+    left: 231px;
+    top: 2399px;
+
+    background: #6F337D;
+    border-radius: 52px;
+}
+
+
+.FilmInfo_blockSeans_time_btn1_block{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 122px;
+    height: 117px;
+    left: 570px;
+    top: 2px;
+    
+    
+}
+
+.FilmInfo_blockSeans_time_block_btn{
+    position: absolute;
+    width: 122px;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+    background: #6B8BFE;
+    border-radius: 24px;  
+}
+
+.FilmInfo_blockSeans_time_block_btnText{
+    position: absolute;
+    width: 92px;
+    height: 11px;
+    left: 19px;
+    top: 4px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    
+    color: #FFFFFF;
+}
+
+.FilmInfo_blockSeans_time_btn2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 122px;
+    height: 117px;
+    left: 0px;
+    top: 42px;
+}
+
+.FilmInfo_blockSeans_time_btn3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 122px;
+    height: 117px;
+    left: 0px;
+    top: 82px;  
+}
+/*  Страница информация о фильме КОНЕЦ */
+
+
+
+
